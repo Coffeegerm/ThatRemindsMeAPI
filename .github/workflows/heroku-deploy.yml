@@ -1,3 +1,9 @@
+on:
+  push:
+    branches:
+      - main
+      - "releases/**"
+
 jobs:
   heroku-deploy:
     runs-on: ubuntu-latest
